@@ -1,0 +1,1705 @@
+fileFormatVersion: 2
+guid: ce3e24ce7ed1bf046b237e7677cf6555
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7904806276562976136
+    second: roda dos alimentos_0
+  - first:
+      213: -6199557183136689450
+    second: roda dos alimentos_1
+  - first:
+      213: 5061083475724508893
+    second: roda dos alimentos_2
+  - first:
+      213: 373210905795590817
+    second: roda dos alimentos_3
+  - first:
+      213: 6620672441642003146
+    second: roda dos alimentos_4
+  - first:
+      213: -5785476727155100618
+    second: roda dos alimentos_5
+  - first:
+      213: -4052380985874730108
+    second: roda dos alimentos_6
+  - first:
+      213: 4504602297882473688
+    second: roda dos alimentos_7
+  - first:
+      213: 5776802135506928183
+    second: roda dos alimentos_8
+  - first:
+      213: -809376658852014293
+    second: roda dos alimentos_9
+  - first:
+      213: -5558872027809062388
+    second: roda dos alimentos_10
+  - first:
+      213: 6886192353804266296
+    second: roda dos alimentos_11
+  - first:
+      213: -7581128040722107756
+    second: roda dos alimentos_12
+  - first:
+      213: -6843441864173032311
+    second: roda dos alimentos_13
+  - first:
+      213: -5266378671470962923
+    second: roda dos alimentos_14
+  - first:
+      213: -3073308425875614544
+    second: roda dos alimentos_15
+  - first:
+      213: -4692157587576600038
+    second: roda dos alimentos_16
+  - first:
+      213: 3663119355084493244
+    second: roda dos alimentos_17
+  - first:
+      213: -5430453830086899332
+    second: roda dos alimentos_18
+  - first:
+      213: -8485571861098296708
+    second: roda dos alimentos_19
+  - first:
+      213: -3775401145589517388
+    second: roda dos alimentos_20
+  - first:
+      213: 7893219047060154054
+    second: roda dos alimentos_21
+  - first:
+      213: 6690032844217106710
+    second: roda dos alimentos_22
+  - first:
+      213: -6227468817765056792
+    second: roda dos alimentos_23
+  - first:
+      213: -2725198154145265865
+    second: roda dos alimentos_24
+  - first:
+      213: -8822138506722231397
+    second: roda dos alimentos_25
+  - first:
+      213: -4987629798786529747
+    second: roda dos alimentos_26
+  - first:
+      213: 9196907242520280357
+    second: roda dos alimentos_27
+  - first:
+      213: -7876675724865314373
+    second: roda dos alimentos_28
+  - first:
+      213: -4215951340742344529
+    second: roda dos alimentos_29
+  - first:
+      213: 8828480426000991112
+    second: roda dos alimentos_30
+  - first:
+      213: 3907379056840972535
+    second: roda dos alimentos_31
+  - first:
+      213: 5690135956490327559
+    second: roda dos alimentos_32
+  - first:
+      213: 5157791248407548050
+    second: roda dos alimentos_33
+  - first:
+      213: -2114855947253478948
+    second: roda dos alimentos_34
+  - first:
+      213: 6052964440186596783
+    second: roda dos alimentos_35
+  - first:
+      213: -4320473773437669227
+    second: roda dos alimentos_36
+  - first:
+      213: -567108377492782007
+    second: roda dos alimentos_37
+  - first:
+      213: -3732936749894135502
+    second: roda dos alimentos_38
+  - first:
+      213: -5927184978162708608
+    second: roda dos alimentos_39
+  - first:
+      213: 3108009532638950131
+    second: roda dos alimentos_40
+  - first:
+      213: -8888968096058016235
+    second: roda dos alimentos_41
+  - first:
+      213: -6102335132449549834
+    second: roda dos alimentos_42
+  - first:
+      213: -1330929217698923919
+    second: roda dos alimentos_43
+  - first:
+      213: -1937862027364471034
+    second: roda dos alimentos_44
+  - first:
+      213: 3361776629898797489
+    second: roda dos alimentos_45
+  - first:
+      213: 2782503001692262611
+    second: roda dos alimentos_46
+  - first:
+      213: 3943448571503791064
+    second: roda dos alimentos_47
+  - first:
+      213: -5490801832782627955
+    second: roda dos alimentos_48
+  - first:
+      213: -4325517339037792048
+    second: roda dos alimentos_49
+  - first:
+      213: -6254117685635688614
+    second: roda dos alimentos_50
+  - first:
+      213: 7286705949178556746
+    second: roda dos alimentos_51
+  - first:
+      213: 5480716547958698566
+    second: roda dos alimentos_52
+  - first:
+      213: -7111707828062606813
+    second: roda dos alimentos_53
+  - first:
+      213: -5140562956782460944
+    second: roda dos alimentos_54
+  - first:
+      213: -5774743198738604566
+    second: roda dos alimentos_55
+  - first:
+      213: 8562648693360793936
+    second: roda dos alimentos_56
+  - first:
+      213: 5730346083261290723
+    second: roda dos alimentos_57
+  - first:
+      213: -5102412628896589239
+    second: roda dos alimentos_58
+  - first:
+      213: 3236832911405410272
+    second: roda dos alimentos_59
+  - first:
+      213: -5418399192024837430
+    second: roda dos alimentos_60
+  - first:
+      213: -3621362849829384303
+    second: roda dos alimentos_61
+  - first:
+      213: 2172703498020990103
+    second: roda dos alimentos_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: roda dos alimentos_0
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 350
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8728f2ba29c7c4290800000000000000
+      internalID: -7904806276562976136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 350
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d29a6ea69fb6f9a0800000000000000
+      internalID: -6199557183136689450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 351
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde982d3b949c3640800000000000000
+      internalID: 5061083475724508893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 350
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa7f3a6759ed2500800000000000000
+      internalID: 373210905795590817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 350
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca2a42028a51eb50800000000000000
+      internalID: 6620672441642003146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 351
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63471a5c19bd5bfa0800000000000000
+      internalID: -5785476727155100618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 350
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483b36ab6fc03c7c0800000000000000
+      internalID: -4052380985874730108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 350
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d471bb6cef838e30800000000000000
+      internalID: 4504602297882473688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 350
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732cb987fe25b2050800000000000000
+      internalID: 5776802135506928183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 350
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2712af873484c4f0800000000000000
+      internalID: -809376658852014293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 351
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02e596c75bead2b0800000000000000
+      internalID: -5558872027809062388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 240
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ba38f067ba09f50800000000000000
+      internalID: 6886192353804266296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_12
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 291
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4927108a63c6ac690800000000000000
+      internalID: -7581128040722107756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 240
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cede4f1e53701a0800000000000000
+      internalID: -6843441864173032311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_14
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 264
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517974230801ae6b0800000000000000
+      internalID: -5266378671470962923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 264
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4187e054a6955d0800000000000000
+      internalID: -3073308425875614544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 263
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ac752c88b12eeb0800000000000000
+      internalID: -4692157587576600038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 263
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb15ba935a306d230800000000000000
+      internalID: 3663119355084493244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 264
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79c288630723a4b0800000000000000
+      internalID: -5430453830086899332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_19
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 15
+        width: 269
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a8f2fc9513d3a80800000000000000
+      internalID: -8485571861098296708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_20
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 264
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3b88839a41b9bc0800000000000000
+      internalID: -3775401145589517388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_21
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 263
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c62e5a37e85a8d60800000000000000
+      internalID: 7893219047060154054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_22
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 263
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611c14f2d65c7dc50800000000000000
+      internalID: 6690032844217106710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_23
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 264
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeba43da169399a0800000000000000
+      internalID: -6227468817765056792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_24
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 263
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7370f9fa7b62e2ad0800000000000000
+      internalID: -2725198154145265865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_25
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 264
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bb68315c7719580800000000000000
+      internalID: -8822138506722231397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_26
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 152
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d260d24af1168cab0800000000000000
+      internalID: -4987629798786529747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_27
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 183
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d73a6e86af1af70800000000000000
+      internalID: 9196907242520280357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_28
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 182
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1e570292d60b290800000000000000
+      internalID: -7876675724865314373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 181
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa088b8b79eed75c0800000000000000
+      internalID: -4215951340742344529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_30
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 183
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88347421c20158a70800000000000000
+      internalID: 8828480426000991112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_31
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 183
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f89ecdcc8cc93630800000000000000
+      internalID: 3907379056840972535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_32
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 167
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706984a318c67fe40800000000000000
+      internalID: 5690135956490327559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_33
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 167
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29053f230d7249740800000000000000
+      internalID: 5157791248407548050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_34
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 167
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd985d098b586a2e0800000000000000
+      internalID: -2114855947253478948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_35
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 168
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fada46f9613700450800000000000000
+      internalID: 6052964440186596783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_36
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 90
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5903bd07ef79a04c0800000000000000
+      internalID: -4320473773437669227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_37
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 120
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94405627fe93128f0800000000000000
+      internalID: -567108377492782007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_38
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 122
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2311f8dcdc1f13cc0800000000000000
+      internalID: -3732936749894135502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_39
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 122
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f849a7aa86ebda0800000000000000
+      internalID: -5927184978162708608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_40
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 122
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2f877f33ed12b20800000000000000
+      internalID: 3108009532638950131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_41
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 106
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e7ea6cc9a04a480800000000000000
+      internalID: -8888968096058016235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_42
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 107
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f155f15786205ba0800000000000000
+      internalID: -6102335132449549834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_43
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 106
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17afdd59de6978de0800000000000000
+      internalID: -1330929217698923919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_44
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 107
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fe83bd0c45b15e0800000000000000
+      internalID: -1937862027364471034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_45
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 106
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1e35f880e67ae20800000000000000
+      internalID: 3361776629898797489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_46
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 106
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0535adcbf6d9620800000000000000
+      internalID: 2782503001692262611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_47
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 107
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db418e1591f9b630800000000000000
+      internalID: 3943448571503791064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 62
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b7de813d0ccc3b0800000000000000
+      internalID: -5490801832782627955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 62
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d80cd0d5eca8f3c0800000000000000
+      internalID: -4325517339037792048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_50
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 63
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a575234c919e439a0800000000000000
+      internalID: -6254117685635688614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_51
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 38
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41738344749f1560800000000000000
+      internalID: 7286705949178556746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_52
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642feab89aa6f0c40800000000000000
+      internalID: 5480716547958698566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_53
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 32
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32aa6f9e8632e4d90800000000000000
+      internalID: -7111707828062606813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_54
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 32
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff13770a3d09a8b0800000000000000
+      internalID: -5140562956782460944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_55
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 32
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed151a18adfbdfa0800000000000000
+      internalID: -5774743198738604566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_56
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 32
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0599b38ae93a4d670800000000000000
+      internalID: 8562648693360793936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_57
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 33
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e817dce667468f40800000000000000
+      internalID: 5730346083261290723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_58
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 32
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ad62d6fb69039b0800000000000000
+      internalID: -5102412628896589239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_59
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 33
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7ec99226a8bec20800000000000000
+      internalID: 3236832911405410272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_60
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 32
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2981c84aafdc4b0800000000000000
+      internalID: -5418399192024837430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_61
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 16
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f8f15cca55ebdc0800000000000000
+      internalID: -3621362849829384303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roda dos alimentos_62
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 16
+        width: 69
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c2ac9e15ef62e10800000000000000
+      internalID: 2172703498020990103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
