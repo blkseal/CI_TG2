@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pessego_1_0: 6760650282703876295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

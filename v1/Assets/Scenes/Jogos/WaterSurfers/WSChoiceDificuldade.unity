@@ -389,14 +389,66 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1590402486361191171, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: sceneName
+      value: WSMainScene
+      objectReference: {fileID: 0}
     - target: {fileID: 1774687013598925130, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_Text
       value: Water Surfers
+      objectReference: {fileID: 0}
+    - target: {fileID: 4699034629595995691, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4699034629595995691, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4699034629595995691, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4699034629595995691, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187339224279292427, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187339224279292427, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187339224279292427, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187339224279292427, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8380720740010036758, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_text
       value: "Desvia-te dos refrigerantes e apanhas as \xE1guas\n\nPodes usar a tecla
         A e D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524636125718002802, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524636125718002802, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524636125718002802, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524636125718002802, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8804603236446118518, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_Name

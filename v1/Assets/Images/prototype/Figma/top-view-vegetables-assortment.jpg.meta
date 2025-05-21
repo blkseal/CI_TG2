@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      top-view-vegetables-assortment_0: -5089501035620157962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

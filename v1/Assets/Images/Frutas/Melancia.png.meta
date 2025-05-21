@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Melancia_0: 3294065599582762778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

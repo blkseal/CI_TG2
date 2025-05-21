@@ -129,7 +129,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000068163026658782, guid: 286816c1812b7014885af178a5d5412a, type: 3}
       propertyPath: m_text
-      value: "Jogo da Mem\xF3ria"
+      value: Legumes
       objectReference: {fileID: 0}
     - target: {fileID: 2953702437756885358, guid: 286816c1812b7014885af178a5d5412a, type: 3}
       propertyPath: m_Pivot.x
@@ -218,7 +218,7 @@ PrefabInstance:
     - target: {fileID: 4707546569078413839, guid: 286816c1812b7014885af178a5d5412a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5992197192468816825, guid: caee4c55204c4144a90ed1f646e2c488, type: 3}
+      objectReference: {fileID: -5089501035620157962, guid: 91722062412aa4044a7c6349ccbfcbf2, type: 3}
     - target: {fileID: 4707546569078413839, guid: 286816c1812b7014885af178a5d5412a, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
@@ -924,6 +924,50 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2953702437756885358, guid: 286816c1812b7014885af178a5d5412a, type: 3}
   m_PrefabInstance: {fileID: 110161804}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2120707666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2120707668}
+  - component: {fileID: 2120707667}
+  m_Layer: 0
+  m_Name: ChangeScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2120707667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120707666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4f6957dc65a88488120b594263cbf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2120707668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120707666}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 294.5008, y: 238.94626, z: -2.2788813}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3712122004084277856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -991,7 +1035,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 330238074259307784, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_text
-      value: Water Surfers
+      value: "Frutas Ex\xF3ticas"
       objectReference: {fileID: 0}
     - target: {fileID: 1192851828934966039, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_Name
@@ -999,7 +1043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1927985488719088215, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_text
-      value: Roda dos Alimentos
+      value: Frutas Comuns
       objectReference: {fileID: 0}
     - target: {fileID: 2416288689247027640, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1016,6 +1060,18 @@ PrefabInstance:
     - target: {fileID: 2416288689247027640, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041501487478925996, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041501487478925996, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041501487478925996, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4601773456942462695, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1036,7 +1092,7 @@ PrefabInstance:
     - target: {fileID: 5197534249853272793, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 3480891795213318224, guid: 66ccd194a544dcc4a868e7c2cb5f82a6, type: 3}
+      objectReference: {fileID: -7320525173469426928, guid: 937e3a5b0faf9f640bcd5d395a610f8e, type: 3}
     - target: {fileID: 5536822461314199605, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1120,7 +1176,7 @@ PrefabInstance:
     - target: {fileID: 6230150151790605702, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 7025651857757288288, guid: ca2ea1201b1ce0e428273a026f08fa27, type: 3}
+      objectReference: {fileID: 1852487600929398431, guid: ecedcf0df2f9cd646b64095868362695, type: 3}
     - target: {fileID: 6230150151790605702, guid: c0185254e3fd6a546a4316d5e8f0a014, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
@@ -1197,3 +1253,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1853705639}
   - {fileID: 1602355233}
+  - {fileID: 2120707668}

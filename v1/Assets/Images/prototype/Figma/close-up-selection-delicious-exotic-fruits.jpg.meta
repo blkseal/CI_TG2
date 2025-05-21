@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      close-up-selection-delicious-exotic-fruits_0: -7320525173469426928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
