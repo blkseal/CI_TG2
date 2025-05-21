@@ -46,7 +46,7 @@ public class DraggableIngredient : MonoBehaviour, IBeginDragHandler, IDragHandle
                 gameObject.SetActive(false);
 
                 // Check if this is the last draggable ingredient
-                if (FindObjectsOfType<DraggableIngredient>().Length == 1)
+                if (FindObjectsOfType<DraggableIngredient>().Length == 0)
                 {
                     SceneManager.LoadScene("RAFinalScene");
                 }

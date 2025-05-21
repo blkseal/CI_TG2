@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 76473977}
   - component: {fileID: 76473976}
   m_Layer: 5
-  m_Name: Descricao (1)
+  m_Name: Highscore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -255,6 +255,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76473974}
   m_CullTransparentMesh: 1
+--- !u!1 &308943573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 308943575}
+  - component: {fileID: 308943574}
+  m_Layer: 0
+  m_Name: FinalSceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &308943574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308943573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3722796e58c31794eab9388e0ac6fa44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 6273092763240054943}
+  highScoreText: {fileID: 76473976}
+--- !u!4 &308943575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308943573}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 145.3834, y: 163.60934, z: -1.6067833}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &441378466 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1525411929118266134, guid: e995e6fd0e491dc4db51a2c2956e7783, type: 3}
@@ -1284,6 +1330,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3605705901435630301, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_Name
+      value: Score
+      objectReference: {fileID: 0}
     - target: {fileID: 4208321876061232632, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_Name
       value: Facil
@@ -1405,6 +1455,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 795083569298597407, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
   m_PrefabInstance: {fileID: 6273092763240054941}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6273092763240054943 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8380720740010036758, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+  m_PrefabInstance: {fileID: 6273092763240054941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1413,3 +1474,4 @@ SceneRoots:
   - {fileID: 1853705639}
   - {fileID: 1602355233}
   - {fileID: 1784705495}
+  - {fileID: 308943575}
