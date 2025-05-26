@@ -35,6 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jogos/RodaAlimentos/RAFinalScene.unity
     guid: a044d201f8ad40f4eaa2492053dd23bc
+  - enabled: 1
+    path: "Assets/Scenes/Jogos/JogoMem\xF3ria/JMMainScene.unity"
+    guid: 385a7a170f743194887c73fae455de81
+  - enabled: 1
+    path: "Assets/Scenes/Jogos/JogoMem\xF3ria/JMFinalScene.unity"
+    guid: 9c4e3b333f1ea2d4a9668228078a4226
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
