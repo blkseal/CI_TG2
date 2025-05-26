@@ -41,6 +41,18 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Jogos/JogoMem\xF3ria/JMFinalScene.unity"
     guid: 9c4e3b333f1ea2d4a9668228078a4226
+  - enabled: 1
+    path: "Assets/Scenes/Frutaria/FrutasEx\xF3ticas.unity"
+    guid: eedbebb97afd6e149b9ef5a8dcaa503a
+  - enabled: 1
+    path: Assets/Scenes/Frutaria/FrutasComuns.unity
+    guid: 633e2eb18b199fe48bbfcea211df15ab
+  - enabled: 1
+    path: Assets/Scenes/Frutaria/Legumes.unity
+    guid: dd0d6b6e2e34fdf439c407bf8ad87688
+  - enabled: 1
+    path: Assets/Scenes/Frutaria/QuizChoiceDificuldade.unity
+    guid: 2d4e18a0f322f544f86bdb8acefce385
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
