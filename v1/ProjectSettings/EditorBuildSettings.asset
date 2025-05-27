@@ -53,6 +53,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Frutaria/QuizChoiceDificuldade.unity
     guid: 2d4e18a0f322f544f86bdb8acefce385
+  - enabled: 1
+    path: Assets/Scenes/Jogos/WaterSurfers/WSMainScene.unity
+    guid: ce5ac326d5e3c64499c4e229204a94be
+  - enabled: 1
+    path: Assets/Scenes/Jogos/WaterSurfers/WSFinalScene.unity
+    guid: ce550a38d15df9a418f00cf4e6e5a927
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
