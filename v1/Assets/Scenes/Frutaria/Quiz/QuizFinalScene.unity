@@ -296,7 +296,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 308943573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07af23cf1f46ab64798692b267e97d02, type: 3}
+  m_Script: {fileID: 11500000, guid: f065ac12e9fac50458545745d4eac6a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 6273092763240054943}
@@ -987,7 +987,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6547571287380999962, guid: b4a8866668f378b4a90a870041f294ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: JogosChoiceScene
+      value: FrutariaChoiceScene
       objectReference: {fileID: 0}
     - target: {fileID: 6547571287380999962, guid: b4a8866668f378b4a90a870041f294ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -995,7 +995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6838799210335674443, guid: b4a8866668f378b4a90a870041f294ac, type: 3}
       propertyPath: m_text
-      value: Voltar a jogos
+      value: "Voltar \xE0 frutaria"
       objectReference: {fileID: 0}
     - target: {fileID: 9191816432909111370, guid: b4a8866668f378b4a90a870041f294ac, type: 3}
       propertyPath: m_Name
@@ -1125,7 +1125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6547571287380999962, guid: b4a8866668f378b4a90a870041f294ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: JMChoiceDificuldade
+      value: QuizChoiceDificuldade
       objectReference: {fileID: 0}
     - target: {fileID: 6547571287380999962, guid: b4a8866668f378b4a90a870041f294ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1264,7 +1264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1774687013598925130, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_Text
-      value: "Jogo da Mem\xF3ria"
+      value: Quiz
       objectReference: {fileID: 0}
     - target: {fileID: 1870886281295346561, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_Name
@@ -1393,6 +1393,10 @@ PrefabInstance:
     - target: {fileID: 5013354456506052331, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_Name
       value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5322907809422310572, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
+      propertyPath: m_Name
+      value: Water Surfers
       objectReference: {fileID: 0}
     - target: {fileID: 6187339224279292427, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_AnchorMax.y

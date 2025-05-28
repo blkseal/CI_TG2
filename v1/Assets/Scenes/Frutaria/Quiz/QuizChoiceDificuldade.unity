@@ -391,7 +391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1590402486361191171, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: sceneName
-      value: JMMainScene
+      value: QuizMainScene
       objectReference: {fileID: 0}
     - target: {fileID: 1774687013598925130, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_Text
