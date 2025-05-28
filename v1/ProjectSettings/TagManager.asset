@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Target
+  - Collectibles
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
@@ -39,8 +40,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2690487435
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2596598323
     locked: 0
   m_RenderingLayers:
   - Default
