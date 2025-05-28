@@ -987,6 +987,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Banana
       objectReference: {fileID: 0}
+    - target: {fileID: 1544461780731299622, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
+      propertyPath: m_Name
+      value: Espinafre
+      objectReference: {fileID: 0}
     - target: {fileID: 1591709109065742186, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1002,6 +1006,18 @@ PrefabInstance:
     - target: {fileID: 1591709109065742186, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621610988672746539, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
+      propertyPath: m_Name
+      value: Cenoura
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727297070706871178, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
+      propertyPath: m_Name
+      value: Broculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744418616030559064, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
+      propertyPath: m_Name
+      value: Beterraba
       objectReference: {fileID: 0}
     - target: {fileID: 2198683131809271493, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Pivot.x
@@ -1085,7 +1101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2313833343167117847, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: Uva
+      value: Beterraba
       objectReference: {fileID: 0}
     - target: {fileID: 3013213532252263902, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1105,15 +1121,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3262312130775500393, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: Laranja
+      value: Espinafre
       objectReference: {fileID: 0}
     - target: {fileID: 3361962193893442916, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: Manga
+      value: Cenoura
       objectReference: {fileID: 0}
     - target: {fileID: 3445710972020591301, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: "P\xEAra Rocha"
+      value: "Br\xF3culo"
       objectReference: {fileID: 0}
     - target: {fileID: 3678243553056132058, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
@@ -1150,46 +1166,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5981216203957464492, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: 'Muito usada para fazer vinho.
-
-        Existem variedades tintas e
-        brancas.'
+      value: "Raiz de cor roxa intensa, usada em saladas ou sumos. \nTem sabor adocicado."
       objectReference: {fileID: 0}
     - target: {fileID: 6686843273818660222, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: 'Uma variedade portuguesa.
-
-        Tem uma pele fina e sabor doce,
-        uma textura firme e suculenta.'
+      value: "Legume verde que parece uma \xE1rvore em miniatura. \nRico em fibras
+        e vitaminas."
       objectReference: {fileID: 0}
     - target: {fileID: 6752577636973679327, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: "Doce, arom\xE1tica e suculenta. \nUsada em pratos doces e salgados,
-        como saladas ou caril."
+      value: "Legume de cor laranja, cresce debaixo da terra. \nMuito comum em sopas
+        e saladas."
       objectReference: {fileID: 0}
     - target: {fileID: 6799275182852510162, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: 'Produzida principalmente no Algarve.
-
-        Doce, rica em vitamina
-        C, e muito usada em sumos naturais.'
+      value: "Folhas verdes escuras, muito nutritivas. \nBom para for\xE7a e energia."
       objectReference: {fileID: 0}
     - target: {fileID: 7057821774694906296, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2371766707720672079, guid: 33669b637f72571439d31c6de5717357, type: 3}
+      objectReference: {fileID: 5075502327999977386, guid: 082b1b637e92a0848b42565d30f428ce, type: 3}
     - target: {fileID: 7069651779162045109, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2617508943937915353, guid: 614d74f42079aa0409286339c6c6f56b, type: 3}
+      objectReference: {fileID: 3295373064963397893, guid: 4331b898352db304696a58b4d90ce581, type: 3}
     - target: {fileID: 7162407605259908372, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 6221938350387746247, guid: 5b8f3708c961c944fb1cc2034bc1a444, type: 3}
+      objectReference: {fileID: 5056288026356050433, guid: 3bc0d1ad30f7fe542ad25125534fa6a4, type: 3}
     - target: {fileID: 7829515860108150214, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -6790916002256144697, guid: d6899789cb9e0174ca3ca398bc714e62, type: 3}
+      objectReference: {fileID: 2612632604485713353, guid: aeb98baa7be99b547b52787c4e0917d5, type: 3}
     - target: {fileID: 9205317086684820491, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1200,7 +1208,9 @@ PrefabInstance:
         ou como um snack energ\xE9tico."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3811525142520293409, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
+    - {fileID: 802405247744101013, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}

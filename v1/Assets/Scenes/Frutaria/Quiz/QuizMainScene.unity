@@ -366,6 +366,7 @@ MonoBehaviour:
     - Pequena e azul
     - Doce e Suculenta
     correctAnswerIndex: 3
+    questionImage: {fileID: -2617508943937915353, guid: 614d74f42079aa0409286339c6c6f56b, type: 3}
   - questionText: "Qual \xE9 a cor de uma Banana madura?"
     answers:
     - Azul
@@ -373,6 +374,7 @@ MonoBehaviour:
     - Laranja
     - Preta
     correctAnswerIndex: 1
+    questionImage: {fileID: 21300000, guid: d2de2aa1dd634aa4088953caf270f12b, type: 3}
   - questionText: "O que \xE9 uma cenoura?"
     answers:
     - Fruta
@@ -380,6 +382,7 @@ MonoBehaviour:
     - "Prote\xEDna"
     - Doce
     correctAnswerIndex: 1
+    questionImage: {fileID: 3295373064963397893, guid: 4331b898352db304696a58b4d90ce581, type: 3}
   mediumQuestions:
   - questionText: "Qual destes legumes \xE9 Laranja por dentro?"
     answers:
@@ -388,6 +391,7 @@ MonoBehaviour:
     - Cenoura
     - Alface
     correctAnswerIndex: 2
+    questionImage: {fileID: 3295373064963397893, guid: 4331b898352db304696a58b4d90ce581, type: 3}
   - questionText: "Que fruta \xE9 vermelha e tem caro\xE7os por fora?"
     answers:
     - Morango
@@ -395,6 +399,7 @@ MonoBehaviour:
     - Manga
     - Melancia
     correctAnswerIndex: 0
+    questionImage: {fileID: -2966020064488457875, guid: a0768141f3dff3947bfcf4ad1aa97a44, type: 3}
   - questionText: "Qual \xE9 a fruta tropical com casca espinhosa e polpa amarela?"
     answers:
     - Banana
@@ -402,6 +407,7 @@ MonoBehaviour:
     - Manga
     - Kiwi
     correctAnswerIndex: 1
+    questionImage: {fileID: -4672942043321612591, guid: 7b5beb9becf0bc9408f65390e809faac, type: 3}
   hardQuestions:
   - questionText: "Como se chama o legume verde que parece uma pequena \xE1rvore?"
     answers:
@@ -410,6 +416,7 @@ MonoBehaviour:
     - Espinafre
     - Couve-flor
     correctAnswerIndex: 0
+    questionImage: {fileID: 5056288026356050433, guid: 3bc0d1ad30f7fe542ad25125534fa6a4, type: 3}
   - questionText: "Que fruta \xE9 verde por fora, vermelha por dentro e tem muitas
       sementes pretas?"
     answers:
@@ -418,6 +425,7 @@ MonoBehaviour:
     - Melancia
     - "Anan\xE1s"
     correctAnswerIndex: 2
+    questionImage: {fileID: 3294065599582762778, guid: 13e267d80d378d54e9f0cfdfb6c426bb, type: 3}
   - questionText: "Qual \xE9 a fruta que se parte ao meio e tem uma semente peluda
       no centro?"
     answers:
@@ -426,7 +434,9 @@ MonoBehaviour:
     - Manga
     - Ameixa
     correctAnswerIndex: 0
+    questionImage: {fileID: 6760650282703876295, guid: 52aee2dffabe6ff4b8a94efa05033b40, type: 3}
   questionText: {fileID: 2017815805}
+  questionImageDisplay: {fileID: 1512194324}
   answerButtons:
   - {fileID: 1239149177}
   - {fileID: 1157303622}
@@ -871,6 +881,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6547571287380999962, guid: b4a8866668f378b4a90a870041f294ac, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6838799210335674443, guid: b4a8866668f378b4a90a870041f294ac, type: 3}
       propertyPath: m_fontSize
       value: 36
@@ -1121,6 +1135,183 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1428340302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1853705639}
+    m_Modifications:
+    - target: {fileID: 2676267664930731273, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_Name
+      value: LogoSmall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 158.3973
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 864
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -502
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+--- !u!224 &1428340303 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6773974399088842547, guid: 56f7644b39457974187fd51aac6db05a, type: 3}
+  m_PrefabInstance: {fileID: 1428340302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1512194322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1512194323}
+  - component: {fileID: 1512194325}
+  - component: {fileID: 1512194324}
+  m_Layer: 5
+  m_Name: QuestionImg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1512194323
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512194322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1853705639}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 305}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1512194324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512194322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1512194325
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512194322}
+  m_CullTransparentMesh: 1
 --- !u!1 &1602355230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,11 +1571,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1071023243}
+  - {fileID: 463888157}
   - {fileID: 590394272}
   - {fileID: 2017815803}
   - {fileID: 1690893373}
   - {fileID: 526887948}
-  - {fileID: 463888157}
+  - {fileID: 1428340303}
+  - {fileID: 1512194323}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class QuizGameManager : MonoBehaviour
         public string questionText;
         public string[] answers = new string[4];
         public int correctAnswerIndex;
+        public Sprite questionImage; // Add image field
     }
 
     public List<Question> easyQuestions;
@@ -19,14 +21,17 @@ public class QuizGameManager : MonoBehaviour
     public List<Question> hardQuestions;
 
     public TMP_Text questionText;
+    public Image questionImageDisplay; // Add reference to image UI element
     public Button[] answerButtons;
     public TMP_Text timerText;
 
     private List<Question> currentQuestions;
     private int currentQuestionIndex = 0;
-    public static int score = 0; // Make score static to access in final scene
+    public static int score = 0;
     private float timer = 0f;
-    private float timePerQuestion = 15f; // seconds per question
+    private float timePerQuestion = 30f;
+
+    private Color[] defaultButtonColors = new Color[4];
 
     private int pointsPerDifficulty
     {
@@ -44,7 +49,16 @@ public class QuizGameManager : MonoBehaviour
 
     void Start()
     {
-        // Select questions based on difficulty
+        // Store default button image colors
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            Image buttonImage = answerButtons[i].GetComponent<Image>();
+            if (buttonImage != null)
+            {
+                defaultButtonColors[i] = buttonImage.color;
+            }
+        }
+
         switch (DifficultySelector.selectedDifficulty)
         {
             case DifficultySelector.Difficulty.Easy:
@@ -67,11 +81,11 @@ public class QuizGameManager : MonoBehaviour
     {
         timer += Time.deltaTime;
         float timeLeft = Mathf.Max(0, timePerQuestion - timer);
-        timerText.text = $"Time: {timeLeft:F1}s";
+        timerText.text = $"Tempo: {timeLeft:F1}s";
 
         if (timeLeft <= 0)
         {
-            NextQuestion(false);
+            StartCoroutine(ShowAnswerAndNext(false, -1));
         }
     }
 
@@ -87,10 +101,31 @@ public class QuizGameManager : MonoBehaviour
         var q = currentQuestions[currentQuestionIndex];
         questionText.text = q.questionText;
 
-        // Reactivate buttons in case they were deactivated
+        // Set question image
+        if (questionImageDisplay != null)
+        {
+            if (q.questionImage != null)
+            {
+                questionImageDisplay.sprite = q.questionImage;
+                questionImageDisplay.gameObject.SetActive(true);
+            }
+            else
+            {
+                questionImageDisplay.gameObject.SetActive(false);
+            }
+        }
+
         for (int i = 0; i < answerButtons.Length; i++)
         {
             answerButtons[i].gameObject.SetActive(true);
+            answerButtons[i].interactable = true;
+
+            // Reset button image color
+            Image buttonImage = answerButtons[i].GetComponent<Image>();
+            if (buttonImage != null && i < defaultButtonColors.Length)
+            {
+                buttonImage.color = defaultButtonColors[i];
+            }
         }
 
         for (int i = 0; i < 4; i++)
@@ -100,7 +135,7 @@ public class QuizGameManager : MonoBehaviour
                 var tmpText = answerButtons[i].GetComponentInChildren<TMP_Text>();
                 if (tmpText != null)
                     tmpText.text = q.answers[i];
-                int index = i; // capture for lambda
+                int index = i;
                 answerButtons[i].onClick.RemoveAllListeners();
                 answerButtons[i].onClick.AddListener(() => OnAnswerSelected(index));
             }
@@ -110,26 +145,48 @@ public class QuizGameManager : MonoBehaviour
     void OnAnswerSelected(int index)
     {
         bool correct = index == currentQuestions[currentQuestionIndex].correctAnswerIndex;
-        NextQuestion(correct);
+        StartCoroutine(ShowAnswerAndNext(correct, index));
     }
 
-    void NextQuestion(bool correct)
+    IEnumerator ShowAnswerAndNext(bool correct, int selectedIndex)
     {
+        // Disable all buttons to prevent further clicks
+        foreach (var btn in answerButtons)
+            btn.interactable = false;
+
+        int correctIndex = currentQuestions[currentQuestionIndex].correctAnswerIndex;
+
+        // Always highlight the correct answer in green
+        SetImageColor(answerButtons[correctIndex], new Color(0.4f, 0.8f, 0.4f)); // Soft green
+
+        // If wrong answer selected, highlight it in red
+        if (!correct && selectedIndex >= 0 && selectedIndex < answerButtons.Length)
+            SetImageColor(answerButtons[selectedIndex], new Color(0.8f, 0.4f, 0.4f)); // Soft red
+
         float timeLeft = Mathf.Max(0, timePerQuestion - timer);
         if (correct)
         {
-            // Points decrease as time passes, minimum 1 point per question
             int points = Mathf.Max(1, Mathf.RoundToInt(pointsPerDifficulty * (timeLeft / timePerQuestion)));
             score += points;
         }
+
+        yield return new WaitForSeconds(1.2f);
+
         currentQuestionIndex++;
         ShowQuestion();
     }
 
+    void SetImageColor(Button btn, Color color)
+    {
+        Image buttonImage = btn.GetComponent<Image>();
+        if (buttonImage != null)
+        {
+            buttonImage.color = color;
+        }
+    }
+
     void EndQuiz()
     {
-        // Optionally, you can show a "Quiz Complete!" message briefly here
-        // before loading the final scene.
         SceneManager.LoadScene("QuizFinalScene");
     }
 }

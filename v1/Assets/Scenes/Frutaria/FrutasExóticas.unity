@@ -985,7 +985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 922193093503887726, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: Banana
+      value: Pitaya
       objectReference: {fileID: 0}
     - target: {fileID: 1591709109065742186, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1085,7 +1085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2313833343167117847, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: Uva
+      value: Kiwi
       objectReference: {fileID: 0}
     - target: {fileID: 3013213532252263902, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1105,7 +1105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3262312130775500393, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: Laranja
+      value: "Maracuj\xE1"
       objectReference: {fileID: 0}
     - target: {fileID: 3361962193893442916, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
@@ -1113,21 +1113,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3445710972020591301, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: "P\xEAra Rocha"
+      value: "Anan\xE1s"
       objectReference: {fileID: 0}
     - target: {fileID: 3678243553056132058, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: Melancia
+      value: Papaya
       objectReference: {fileID: 0}
     - target: {fileID: 4617966832439516257, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: "Fruta de ver\xE3o, muito refrescante e rica em \xE1gua.\nTem uma polpa
-        vermelha e semenstes pretas."
+      value: "Fruta grande, com casca verde ou alaranjada e polpa laranja. Cont\xE9m
+        sementes pretas."
       objectReference: {fileID: 0}
     - target: {fileID: 4645513181479343807, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d2de2aa1dd634aa4088953caf270f12b, type: 3}
+      objectReference: {fileID: 7991098846765311905, guid: a9b581c4586c7ce4599131535635851c, type: 3}
     - target: {fileID: 5324915415017970591, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_SizeDelta.x
       value: -893.9675
@@ -1150,17 +1150,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5981216203957464492, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: 'Muito usada para fazer vinho.
-
-        Existem variedades tintas e
-        brancas.'
+      value: "Pequeno, com casca castanha e peluda, polpa verde e sementes pretas.
+        \nRico em vitamina C."
       objectReference: {fileID: 0}
     - target: {fileID: 6686843273818660222, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: 'Uma variedade portuguesa.
-
-        Tem uma pele fina e sabor doce,
-        uma textura firme e suculenta.'
+      value: Fruta tropical com casca espinhosa e polpa amarela, muito doce e suculenta.
       objectReference: {fileID: 0}
     - target: {fileID: 6752577636973679327, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
@@ -1169,15 +1164,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6799275182852510162, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: 'Produzida principalmente no Algarve.
-
-        Doce, rica em vitamina
-        C, e muito usada em sumos naturais.'
+      value: "Fruto pequeno, com casca rugosa, polpa gelatinosa e sabor \xE1cido-doce.
+        Muito usado em sumos."
       objectReference: {fileID: 0}
     - target: {fileID: 7057821774694906296, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2371766707720672079, guid: 33669b637f72571439d31c6de5717357, type: 3}
+      objectReference: {fileID: -8910491359218632708, guid: 7a2f3d0a82719dc4ea3c4fd85216c937, type: 3}
     - target: {fileID: 7069651779162045109, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1185,22 +1178,24 @@ PrefabInstance:
     - target: {fileID: 7162407605259908372, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 6221938350387746247, guid: 5b8f3708c961c944fb1cc2034bc1a444, type: 3}
+      objectReference: {fileID: -4672942043321612591, guid: 7b5beb9becf0bc9408f65390e809faac, type: 3}
     - target: {fileID: 7829515860108150214, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -6790916002256144697, guid: d6899789cb9e0174ca3ca398bc714e62, type: 3}
+      objectReference: {fileID: 4138223980208024357, guid: 43a706eeac46c4044b3541cc39907cb9, type: 3}
     - target: {fileID: 9205317086684820491, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 3294065599582762778, guid: 13e267d80d378d54e9f0cfdfb6c426bb, type: 3}
+      objectReference: {fileID: -2189210071614970513, guid: 0966abf2111848144b677297f6bb53f4, type: 3}
     - target: {fileID: 9210326209148354261, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
       propertyPath: m_text
-      value: "Casca amarela, polpa macia e doce.\n\xC9 muito usada em batidos, bolos
-        ou como um snack energ\xE9tico."
+      value: "De aspeto ex\xF3tico, casca rosa ou amarela com \u201Cescamas\u201D,
+        e interior branco ou vermelho com sementes pretas."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1544461780731299622, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
+    - {fileID: 1744418616030559064, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd39ebb6b733aba41b1a8e587cf60e1b, type: 3}

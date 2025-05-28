@@ -62,6 +62,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Frutaria/Quiz/QuizFinalScene.unity
     guid: 3d7a4c8ec628f2a4fb946302052527c1
+  - enabled: 1
+    path: Assets/Scenes/Frutaria/Quiz/QuizChoiceDificuldade.unity
+    guid: b0de1ae8dd1b6184e8d9734f395a14ce
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

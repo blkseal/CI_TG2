@@ -20,7 +20,7 @@ public class QuizFinalSceneManager : MonoBehaviour
             PlayerPrefs.Save();
         }
 
-        scoreText.text = $"Score: {score}";
-        highScoreText.text = $"High Score: {highScore}";
+        scoreText.text = $"Pontuação: {score}";
+        highScoreText.text = $"Melhor pontuação: {highScore}";
     }
 }
