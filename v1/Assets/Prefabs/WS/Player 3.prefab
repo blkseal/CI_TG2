@@ -90,3 +90,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 800
   margin: 450
+  bulletPrefab: {fileID: 5322890904833976566, guid: 7e3f4c63be1afed4e814a7a28fe7d2fe, type: 3}
+  bulletSpeed: 800

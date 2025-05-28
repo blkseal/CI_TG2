@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ItemSpawner : MonoBehaviour
 {
-    public GameObject[] itemPrefabs; // Assign good and bad prefabs
+    public GameObject[] itemPrefabs; // Regular items first, then power-ups as last two
     public RectTransform canvasRect;
     public float spawnInterval = 1f;
     public float spawnMargin = 100f; // Margin from canvas edge
@@ -12,6 +12,10 @@ public class ItemSpawner : MonoBehaviour
     public Transform playerParent; // Assign the canvas or a UI parent
 
     private GameObject playerInstance;
+
+    // Adjust these to control power-up spawn rates (lower = rarer)
+    [Range(0f, 1f)] public float powerUpChance = 0.15f; // Total chance for any power-up
+    [Range(0f, 1f)] public float firstPowerUpRatio = 0.5f; // Split between the two power-ups
 
     void Start()
     {
@@ -37,7 +41,24 @@ public class ItemSpawner : MonoBehaviour
 
     void SpawnItem()
     {
-        int index = Random.Range(0, itemPrefabs.Length);
+        int regularCount = itemPrefabs.Length - 2; // Last two are power-ups
+        int index;
+
+        float roll = Random.value;
+        if (roll < powerUpChance && itemPrefabs.Length >= 2)
+        {
+            // Spawn a power-up
+            if (Random.value < firstPowerUpRatio)
+                index = itemPrefabs.Length - 2; // First power-up
+            else
+                index = itemPrefabs.Length - 1; // Second power-up
+        }
+        else
+        {
+            // Spawn a regular item
+            index = Random.Range(0, regularCount);
+        }
+
         GameObject item = Instantiate(itemPrefabs[index], transform);
         float halfWidth = canvasRect.rect.width / 2f;
         float x = Random.Range(-halfWidth + spawnMargin, halfWidth - spawnMargin);

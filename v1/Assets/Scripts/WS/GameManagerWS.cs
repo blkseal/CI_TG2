@@ -14,6 +14,21 @@ public class GameManagerWS : MonoBehaviour
     private PlayerController player;
     private float topSpeed = 0f;
 
+    private int scoreMultiplier = 1;
+
+    public void SetScoreMultiplier(int multiplier)
+    {
+        scoreMultiplier = multiplier;
+    }
+
+    public void AddScore(int value)
+    {
+        if (!gameActive) return;
+        score += value * scoreMultiplier;
+        if (score < 0) score = 0; // Nunca deixa o score ir abaixo de zero
+        scoreText.text = $"Score: {score}";
+    }
+
     void Start()
     {
         // Find player - wait a moment to ensure it's spawned by Spawner
@@ -27,13 +42,6 @@ public class GameManagerWS : MonoBehaviour
         {
             Debug.LogWarning("Player not found!");
         }
-    }
-
-    public void AddScore(int value)
-    {
-        if (!gameActive) return;
-        score += value;
-        scoreText.text = $"Score: {score}";
     }
 
     void Update()
@@ -74,4 +82,3 @@ public class GameManagerWS : MonoBehaviour
         SceneManager.LoadScene("WSFinalScene");
     }
 }
-

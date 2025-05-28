@@ -20,7 +20,7 @@ public class FinalSceneManagerJM : MonoBehaviour
             PlayerPrefs.SetInt(HighScoreKey, highScore);
         }
 
-        scoreText.text = $"Score: {score}";
-        highScoreText.text = $"High Score: {highScore}";
+        scoreText.text = $"Pontuação: {score}";
+        highScoreText.text = $"Melhor Pontuação: {highScore}";
     }
 }

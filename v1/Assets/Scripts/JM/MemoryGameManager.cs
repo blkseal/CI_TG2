@@ -185,12 +185,12 @@ public class MemoryGameManager : MonoBehaviour
 
     void UpdatePointsUI()
     {
-        pointsText.text = $"Points: {points}";
+        pointsText.text = $"Pontuação: {points}";
     }
 
     void UpdateTimerUI()
     {
         float elapsed = Time.time - startTime;
-        timerText.text = $"Time: {elapsed:F1}s";
+        timerText.text = $"Tempo: {elapsed:F1}s";
     }
 }
