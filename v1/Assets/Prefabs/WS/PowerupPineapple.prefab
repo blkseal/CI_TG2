@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 4285985819752038813}
   - component: {fileID: 1492319085676335783}
   - component: {fileID: 3304413026087042156}
+  - component: {fileID: 98175064019328470}
   m_Layer: 5
-  m_Name: Water
+  m_Name: PowerupPineapple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6397894753212482301, guid: 5f41116697cfa0d48b5ce25b8b44b601, type: 3}
+  m_Sprite: {fileID: 837517196756356485, guid: 131e485692e27e84c86170dad18cda85, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -90,3 +91,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fallSpeed: 400
   isGoodItem: 1
+  isPowerUp: 0
+  isScoreMultiplier: 1
+  powerUpDuration: 5
+  speedBoost: 200
+--- !u!95 &98175064019328470
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017883405348878853}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eef88f997ecfdfc4d9ef591713a26d8f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

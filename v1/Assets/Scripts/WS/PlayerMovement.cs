@@ -14,11 +14,19 @@ public class PlayerController : MonoBehaviour
     private Canvas canvas;
     private float canvasWidth;
 
+    // Animator reference
+    public Animator animator;
+    // isShooting parameter name (should match the parameter in your Animator)
+    private static readonly int IsShooting = Animator.StringToHash("isShooting");
+
     // Canvas bounds (assuming 1920x1080, centered at (0,0))
     private const float canvasTop = 1080f / 2f;
     private const float canvasBottom = -1080f / 2f;
     private const float canvasLeft = -1920f / 2f;
     private const float canvasRight = 1920f / 2f;
+
+    // Track last direction for flipping
+    private bool facingRight = true;
 
     void Awake()
     {
@@ -31,6 +39,11 @@ public class PlayerController : MonoBehaviour
                 Debug.LogError("No Canvas found!");
         }
         canvasWidth = 1920f; // Default width for clamping
+
+        // Get the Animator component
+        animator = GetComponent<Animator>();
+        if (animator == null)
+            Debug.LogWarning("Animator component not found on PlayerController GameObject.");
     }
 
     void Start()
@@ -42,7 +55,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Move with keyboard
-        float move = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+        float moveInput = Input.GetAxis("Horizontal");
+        float move = moveInput * moveSpeed * Time.deltaTime;
         Vector2 pos = rectTransform.anchoredPosition;
 
         float leftBound = canvasLeft + margin;
@@ -53,11 +67,38 @@ public class PlayerController : MonoBehaviour
 
         rectTransform.anchoredPosition = pos;
 
+        // Flip player based on direction
+        if (moveInput < 0 && facingRight)
+        {
+            Flip(false);
+        }
+        else if (moveInput > 0 && !facingRight)
+        {
+            Flip(true);
+        }
+
         // Shoot with spacebar
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Shoot();
+            // Set isShooting to true when shooting
+            if (animator != null)
+                animator.SetBool(IsShooting, true);
         }
+        else if (Input.GetKeyUp(KeyCode.Space))
+        {
+            // Reset isShooting to false when spacebar is released
+            if (animator != null)
+                animator.SetBool(IsShooting, false);
+        }
+    }
+
+    private void Flip(bool faceRight)
+    {
+        facingRight = faceRight;
+        Vector3 scale = transform.localScale;
+        scale.x = Mathf.Abs(scale.x) * (faceRight ? 1 : -1);
+        transform.localScale = scale;
     }
 
     public void Shoot()

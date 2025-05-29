@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 4285985819752038813}
   - component: {fileID: 1492319085676335783}
   - component: {fileID: 3304413026087042156}
+  - component: {fileID: 4516149727705424208}
   m_Layer: 5
-  m_Name: Powerup
+  m_Name: Orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6927825636023362364, guid: f8623edcee3d25847bfd909b3939ded4, type: 3}
+  m_Sprite: {fileID: 4121880872312635667, guid: ffc9f271fad56c243a45f100b9dc6778, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -90,6 +91,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fallSpeed: 400
   isGoodItem: 1
-  isPowerUp: 1
+  isPowerUp: 0
+  isScoreMultiplier: 0
   powerUpDuration: 5
   speedBoost: 200
+--- !u!95 &4516149727705424208
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017883405348878853}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 666f306d6da370548b55e060accca501, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

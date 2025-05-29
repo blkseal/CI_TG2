@@ -431,8 +431,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8380720740010036758, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_text
-      value: "Desvia-te dos refrigerantes e apanha as \xE1guas\n\nPodes usar a tecla
-        A e D"
+      value: "Usa o ESPA\xC7O para alimentares as tartarugas.\n\nUsa o A e D ou setas
+        para apanhares as frutas!"
       objectReference: {fileID: 0}
     - target: {fileID: 8524636125718002802, guid: 078590738f975df4ca057f2737b3fe8f, type: 3}
       propertyPath: m_AnchorMax.y
