@@ -16,6 +16,11 @@ public class GameManagerWS : MonoBehaviour
 
     private int scoreMultiplier = 1;
 
+    // AudioSources for feedback
+    public AudioSource badHitAudioSource;
+    public AudioSource goodHitAudioSource;
+    public AudioSource shootingAudioSource;
+
     public void SetScoreMultiplier(int multiplier)
     {
         scoreMultiplier = multiplier;
@@ -27,6 +32,24 @@ public class GameManagerWS : MonoBehaviour
         score += value * scoreMultiplier;
         if (score < 0) score = 0; // Nunca deixa o score ir abaixo de zero
         scoreText.text = $"Score: {score}";
+    }
+
+    public void PlayBadHitSound()
+    {
+        if (badHitAudioSource != null)
+            badHitAudioSource.Play();
+    }
+
+    public void PlayGoodHitSound()
+    {
+        if (goodHitAudioSource != null)
+            goodHitAudioSource.Play();
+    }
+
+    public void PlayShootingSound()
+    {
+        if (shootingAudioSource != null)
+            shootingAudioSource.Play();
     }
 
     void Start()

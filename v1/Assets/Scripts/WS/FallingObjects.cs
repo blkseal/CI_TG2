@@ -42,18 +42,27 @@ public class FallingItem : MonoBehaviour
                 if (isScoreMultiplier)
                 {
                     ApplyScoreMultiplier();
+                    if (gameManager != null)
+                        gameManager.PlayGoodHitSound();
                 }
                 else if (isPowerUp)
                 {
                     ApplySpeedBoost();
+                    if (gameManager != null)
+                        gameManager.PlayGoodHitSound();
                 }
                 else if (isGoodItem)
                 {
                     gameManager.AddScore(1);
+                    if (gameManager != null)
+                        gameManager.PlayGoodHitSound();
                 }
                 else
                 {
                     gameManager.AddScore(-1);
+                    if (gameManager != null)
+                        gameManager.PlayBadHitSound();
+                    player.FlashRed();
                 }
 
                 Destroy(gameObject);

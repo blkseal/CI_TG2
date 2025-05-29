@@ -27,11 +27,11 @@ public class FinalSceneManager_ForWS : MonoBehaviour
         }
 
         // Display the scores
-        scoreText.text = $"Your Score: {score}";
-        highScoreText.text = $"High Score: {highScore}";
+        scoreText.text = $"Pontuação: {score}";
+        highScoreText.text = $"Melhor pontuação: {highScore}";
 
         // Display top speed
-        topSpeedText.text = $"Top Speed: {topSpeed:F1}";
+        topSpeedText.text = $"Velocidade maior: {topSpeed:F1}";
     }
 }
 

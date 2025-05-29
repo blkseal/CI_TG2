@@ -28,6 +28,12 @@ public class PlayerController : MonoBehaviour
     // Track last direction for flipping
     private bool facingRight = true;
 
+    // Reference to GameManagerWS for audio feedback
+    private GameManagerWS gameManager;
+
+    // Reference to Image for color flash (UI player)
+    private Image playerImage;
+
     void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -44,6 +50,16 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         if (animator == null)
             Debug.LogWarning("Animator component not found on PlayerController GameObject.");
+
+        // Get GameManagerWS reference
+        gameManager = FindObjectOfType<GameManagerWS>();
+        if (gameManager == null)
+            Debug.LogWarning("GameManagerWS not found in scene.");
+
+        // Get Image component for color flash
+        playerImage = GetComponent<Image>();
+        if (playerImage == null)
+            Debug.LogWarning("Image component not found on PlayerController GameObject. Flash effect will not work.");
     }
 
     void Start()
@@ -84,6 +100,9 @@ public class PlayerController : MonoBehaviour
             // Set isShooting to true when shooting
             if (animator != null)
                 animator.SetBool(IsShooting, true);
+            // Play shooting sound
+            if (gameManager != null)
+                gameManager.PlayShootingSound();
         }
         else if (Input.GetKeyUp(KeyCode.Space))
         {
@@ -125,5 +144,20 @@ public class PlayerController : MonoBehaviour
             }
             yield return null;
         }
+    }
+
+    // Call this when hit by a bad item
+    public void FlashRed(float duration = 0.15f)
+    {
+        if (playerImage != null)
+            StartCoroutine(FlashRedCoroutine(duration));
+    }
+
+    private IEnumerator FlashRedCoroutine(float duration)
+    {
+        Color originalColor = playerImage.color;
+        playerImage.color = Color.red;
+        yield return new WaitForSeconds(duration);
+        playerImage.color = originalColor;
     }
 }
