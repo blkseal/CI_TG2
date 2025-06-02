@@ -36,6 +36,6 @@ public class PlatformerManager : MonoBehaviour
     private void UpdateScoreUI()
     {
         if (scoreText != null)
-            scoreText.text = "Pontuação: " + score;
+            scoreText.text = "= " + score;
     }
 }

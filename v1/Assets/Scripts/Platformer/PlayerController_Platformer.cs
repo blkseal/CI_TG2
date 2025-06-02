@@ -16,7 +16,6 @@ public class PlayerController_Platformer : MonoBehaviour
 
     private Rigidbody2D rb;
     public Animator animator;
-    private bool isGrounded;
     private bool facingRight = true;
     private PlatformerManager platformerManager;
 
@@ -34,9 +33,8 @@ public class PlayerController_Platformer : MonoBehaviour
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
         animator.SetFloat("Speed", Mathf.Abs(moveInput));
-        animator.SetBool("isGrounded", isGrounded);
         animator.SetBool("isRunning", Mathf.Abs(rb.velocity.x) > 0.01f);
-        animator.SetBool("isJump", !isGrounded);
+        animator.SetBool("isJump", rb.velocity.y != 0);
 
         if (moveInput > 0 && !facingRight)
         {
@@ -47,7 +45,8 @@ public class PlayerController_Platformer : MonoBehaviour
             Flip();
         }
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        // Allow jump if vertical velocity is near zero (simple ground check)
+        if (Input.GetButtonDown("Jump") && Mathf.Abs(rb.velocity.y) < 0.01f)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
@@ -69,16 +68,6 @@ public class PlayerController_Platformer : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        isGrounded = true;
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        isGrounded = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)
