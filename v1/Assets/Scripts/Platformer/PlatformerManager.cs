@@ -29,8 +29,12 @@ public class PlatformerManager : MonoBehaviour
     {
         if (gameEnded) return;
         gameEnded = true;
-        Debug.Log("Game Ended! Final Score: " + score);
-        SceneManager.LoadScene("ChoiceScene");
+
+        // Save the current score for the final scene to display
+        PlayerPrefs.SetInt("PlatformerCurrentScore", score);
+        PlayerPrefs.Save();
+
+        SceneManager.LoadScene("PlatformerFinalScene");
     }
 
     private void UpdateScoreUI()
