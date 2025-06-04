@@ -41,34 +41,9 @@ public class PlayerController_Platformer : MonoBehaviour
         platformerManager = FindObjectOfType<PlatformerManager>();
         playerCollider = GetComponent<Collider2D>();
         wasGroundedLastFrame = isGrounded;
-
-        // Pre-warm audio system on start
-        PreWarmAudio();
     }
 
-    // Pre-warm the audio system to reduce first-play delay
-    void PreWarmAudio()
-    {
-        AudioSource[] sources = { jumpSound, normalCollectSound, specialCollectSound };
-        foreach (AudioSource source in sources)
-        {
-            if (source != null && source.clip != null)
-            {
-                // Store original volume and settings
-                float originalVolume = source.volume;
-                bool originalLoop = source.loop;
 
-                // Briefly play at zero volume
-                source.volume = 0f;
-                source.loop = false;
-                source.PlayOneShot(source.clip, 0f);
-
-                // Restore settings
-                source.volume = originalVolume;
-                source.loop = originalLoop;
-            }
-        }
-    }
 
     void Update()
     {
@@ -101,8 +76,8 @@ public class PlayerController_Platformer : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             PlaySound(jumpSound);
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0)
@@ -203,8 +178,6 @@ public class PlayerController_Platformer : MonoBehaviour
     private void PlaySound(AudioSource source)
     {
         if (source != null && source.clip != null)
-        {
-            source.PlayOneShot(source.clip); // Using PlayOneShot for better responsiveness
-        }
+            source.PlayOneShot(source.clip);
     }
 }
